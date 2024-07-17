@@ -1,0 +1,56 @@
+/* box model ke andar 4 parts hote hai 
+1. content-jo bhi text hai
+2.padding-content or border ke bich ki space
+3.border-border to border hi hai
+4.margin-border and webpage ke bich ki space */
+
+/* first value top ke liye, second wali both sides, 3rd wali bottom */
+
+body{
+    border: 5px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+#bm{
+    border: 4px solid red;
+    padding: 59px 10px 5px; 
+    margin: 50px 10px 25px;
+}
+
+/* text align */
+
+h1{
+    text-align: right;
+    /* text-align: left;
+    text-align: center;
+    text-align: end;
+    text-align: start; */
+
+
+}
+p{
+    text-align: justify; 
+
+}
+a{
+    font-size: 35px;
+    text-decoration: line-through;
+    text-decoration-style:double;
+     text-decoration-color: red;
+    
+}
+h3{
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-indent:35px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+
+
+}
+h4{
+    text-shadow: 1px 2px 2px black;
+
+    color:tan;
+}
